@@ -1,0 +1,300 @@
+header{
+    background: url(/images/coffeebackground.jpg) center no-repeat fixed;
+    height: 100vh;
+}
+.newsletter{
+    background: url(/images/coffeeandcookie.jpg) center no-repeat fixed;
+}
+header, .newsletter{
+    background-size: cover;
+    position: relative;
+}
+header::before, .newsletter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0 , 0.6);
+    z-index: 0;
+
+}
+
+#navbar{
+    transition: 500ms;
+}
+
+@media screen and (max-height: 400px){
+    header{
+        height: 35em;
+    }
+}
+.tags{
+    padding: 0;
+
+}
+img{
+    height: 50%;
+    width: auto;
+
+}
+img{
+    height: auto;
+    width: 40%;
+    padding: 40pt;
+    
+}
+.logo {
+    float: left;
+    margin: auto;
+    max-width: 188px;
+    width: 200px;
+    height: auto;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;	
+    font-size: 20px;
+    color: white;
+}
+.navbar-nav li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;	
+	font-size: 15px;
+}
+.navbar-nav a:hover{
+	background-color: black;
+	color: white;
+
+}
+.navbar-nav li.active a {
+	background-color: black;
+	color: white;
+}
+.container1 {
+    position: relative;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../images/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container1 h2 {
+	margin: auto;
+    font-family: 'Poppins', sans-serif;	
+    font-size: 40px;
+	text-align: center;
+	color: #fff;
+    margin-top: 130px;
+}
+.container1 h1 {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;	
+    font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin-right: 50px;
+}
+.me {
+    margin: auto;
+    width: 500px;
+}
+.me img {
+	border-radius: 50%;
+	padding: 1px;
+	border: 2px solid transparent;
+	background: #fff;
+	margin: auto;
+	width: 180px;
+    height: 180px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.layout img{
+    position: relative;
+    top: -500px;
+    right: -300px;
+    border-radius: 10%;
+	padding: 3px;
+	border: 3px solid transparent;
+	background: black;
+	margin: auto;
+ 
+}
+#container {
+    padding-left: 200px;
+    padding-right: 190px;
+}
+
+#container .column {
+    position: relative;
+    float: left;
+}
+
+#center {
+    padding: 10px 20px;
+    width: 100%;
+}
+h2 {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;	
+	font-size: 25px;
+	text-align: center;
+	color: black;
+    margin-left: 20px;
+}
+h1 {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+    margin-bottom: 57px;
+}
+
+#left {
+    width: 180px;
+    padding: 0 10px;
+    right: 240px;
+    margin-left: -100%;
+}
+
+#right {
+    width: 130px;
+    padding: 0 10px;
+    margin-right: -100%;
+}
+
+#footer {
+    clear: both;
+}
+body {
+    min-width: 630px;
+}
+
+/* IE hack */
+* html #left {
+    left: 150px;
+}
+
+/* Make the columns the same height as each other */
+#container {
+    overflow: hidden;
+}
+
+#container .column {
+    padding-bottom: 1001em;
+    margin-bottom: -1000em;
+}
+
+/* Fix for the footer */
+* html body {
+    overflow: hidden;
+}
+
+* html #footer-wrapper {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: #fff;
+}
+/* Aesthetics */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+#header{
+    height: 50%;
+}
+article{
+    margin-left: 150pt;
+    margin-top: 10pt;
+    margin-right: 150pt;
+    margin-bottom: 10pt;
+}
+
+p {
+    margin-left: 50px;
+    color: grey;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: grey
+    
+}
+
+#header, #footer {
+    font-size: large;
+    padding: 0.3em;
+    background: rgba(0, 0, 0 , 0.6);
+}
+
+#left {
+    background: #dde2d3;
+    width: 21%;
+    padding: 2%;
+    
+}
+
+#right {
+    background: #F7FDEB;
+    width: 21%;
+    padding: 2%;
+
+}
+
+#center {
+    background: #fff;
+    padding: 2%;
+}
+    
+
+#container .column {
+    padding-top: 1em;
+}
+.fb{
+    margin: auto;
+    width: 500px;
+}
+.fb img {
+	width: 330px;
+    height: 530px;
+    margin-left: 110px;
+}  
+.ig{
+    margin: auto;
+    width: 500px;
+}
+.ig img {
+	width: 330px;
+    height: 530px;
+    margin-left: 110px;
+}  
+h4 {
+    font-family: 'Poppins', sans-serif;	
+	font-size: 30px;
+	text-align: center;
+	color: black;
+    margin-bottom: 10px;
+}
+
+label {
+    text-align: center;
+}
